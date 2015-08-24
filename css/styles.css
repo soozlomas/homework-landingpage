@@ -105,10 +105,11 @@ section {
 
 footer {
   height:174.5px;
-  border: 1px solid black;
+  background-color: #121212;
+	padding-top: 34.5px;
 }
 
-#logo {
+#toplogo {
 	width: 77.5px;
 	height: 17.5px;
 	position: relative;
@@ -139,12 +140,14 @@ footer {
 #calltoaction {
   height:59.5px;
   background-color: #f9e42e;
+	padding-top: 14.5px;
+	padding-left: 223.5px;
 }
 
 #signupnow {
 	height:30.5px;
 	width: 153px;
-/*margin: 0 auto;*/
+	/* margin: 0 auto; */
 	padding: 8px;
 	background-color: #033048;
 }
@@ -158,6 +161,7 @@ h1 {
   font-weight: 800;
   font-size: 24px;
   color: #ffffff;
+	letter-spacing: 0.5px;
 }
 
 h2 {
@@ -189,11 +193,27 @@ nav a:active {
     color: #033048;
 }
 
+#signupnow a:link {
+    color: #ffffff;
+}
+
+#signupnow a:visited {
+    color: #ffffff;
+}
+
+#signupnow a:hover {
+    color: #ffffff;
+}
+
+#signupnow a:active {
+    color: #ffffff;
+}
+
 .actionbutton {
 	border-radius: 5px;
 }
 
-.getitnow {
+.getitbutton {
 	font-weight: 800;
 	font-size: 14px;
 	color: #033048;
@@ -212,5 +232,41 @@ nav a:active {
 }
 
 .testimonalname {
-	font-style: 600;
+	font-weight: 600;
+}
+
+.signupbutton {
+	font-weight: 800;
+	font-size: 14px;
+	color: #033048;
+	text-align: center;
+}
+
+.bottomlogo {
+	color: #f9e42e;
+	text-align: center;
+}
+
+#copyright {
+	font-weight: 600;
+	font-size: 9px;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 22px;
+}
+
+#socialmedia {
+	height: 18.5px;
+	margin-top: 30px;
+	padding-left: 271.5px;
+	padding-right: 271.5px;
+}
+
+#socialmedialeft {
+float: left;
+}
+
+#socialmediaright {
+float: right;
 }
