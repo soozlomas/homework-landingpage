@@ -43,6 +43,10 @@ table {
 	border-spacing: 0;
 }
 
+a {
+	text-decoration: none;
+}
+
 /* applies to everything */
 * {
   box-sizing: border-box;
@@ -66,15 +70,18 @@ font-size: 13px;
 header {
   height:350px;
 	background-image: url("../images/header_bg.jpg");
+	background-size: 600px 350px;
 	background-repeat: no-repeat;
-	padding-left: 60px;
-	padding-top: 20.5px; 
 }
 
 nav {
 	height:29.5px;
 	width: 131px;
-  border: 1px solid black;
+	margin-top: 40px;
+	margin-left: 234.5px;
+/*margin: 0 auto;*/
+	padding: 8px;
+	background-color: #f9e42e;
 }
 
 main {
@@ -84,7 +91,16 @@ main {
 
 section {
   height:197px;
-  border: 1px solid black;
+	background-image: url("../images/testimonial_bg.jpg");
+	background-size: 600px 197px;
+	background-repeat: no-repeat;
+	padding-top: 30px;
+	padding-left: 150px;
+	padding-right: 150px;
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	clear:both;
 }
 
 footer {
@@ -92,9 +108,50 @@ footer {
   border: 1px solid black;
 }
 
+#logo {
+	width: 77.5px;
+	height: 17.5px;
+	position: relative;
+  top: 18.5px;
+  left: 56px;
+}
+
+#tagline {
+	width: 100%;
+	text-align: center;
+	margin-top: 84px;
+}
+
+#maincolleft {
+	width: 360px;
+	padding-top:48px;
+	padding-left: 56px;
+	float: left;
+}
+
+#maincolright {
+	width: 240px;
+	padding-top:48px;
+	padding-right: 56px;
+	float: left;
+}
+
 #calltoaction {
   height:59.5px;
-  border: 1px solid black;
+  background-color: #f9e42e;
+}
+
+#signupnow {
+	height:30.5px;
+	width: 153px;
+/*margin: 0 auto;*/
+	padding: 8px;
+	background-color: #033048;
+}
+
+p {
+	margin-bottom: 33px;
+	line-height: 150%;
 }
 
 h1 {
@@ -104,11 +161,56 @@ h1 {
 }
 
 h2 {
+	font-weight: 600;
+	font-size: 24px;
+	color: #ffffff;
+}
+
+h3 {
   font-weight: 600;
   font-size: 20px;
   color: #033048;
+	margin-bottom: 18px;
 }
 
-#quote {
+nav a:link {
+    color: #033048;
+}
 
+nav a:visited {
+    color: #033048;
+}
+
+nav a:hover {
+    color: #033048;
+}
+
+nav a:active {
+    color: #033048;
+}
+
+.actionbutton {
+	border-radius: 5px;
+}
+
+.getitnow {
+	font-weight: 800;
+	font-size: 14px;
+	color: #033048;
+	text-align: center;
+}
+
+.benefitlist {
+	line-height: 150%;
+	margin-left: 38px;
+	list-style-type: disc;
+}
+
+.testimonial {
+	font-style: italic;
+	margin-bottom: 4px;
+}
+
+.testimonalname {
+	font-style: 600;
 }
