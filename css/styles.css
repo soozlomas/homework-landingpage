@@ -77,7 +77,6 @@ font-size: 13px;
 }
 
 .logotext {
-	font-weight: 800;
 	font-size: 24px;
 	letter-spacing: 0.5px;
 }
@@ -98,17 +97,6 @@ font-size: 13px;
 
 .actionbutton {
 	border-radius: 5px;
-}
-
-.getitbutton {
-	font-weight: 800;
-	font-size: 14px;
-	color: #033048;
-	text-align: center;
-}
-
-.signupbutton {
-	font-weight: 800;
 	font-size: 14px;
 	color: #033048;
 	text-align: center;
@@ -188,7 +176,6 @@ main {
 }
 
 .testimonalname {
-	font-weight: 600;
 	margin-bottom: 0px;
 }
 
@@ -217,7 +204,6 @@ footer {
 }
 
 #copyright {
-	font-weight: 600;
 	font-size: 9px;
 	color: #ffffff;
 	text-align: center;
@@ -240,13 +226,6 @@ float: left;
 float: right;
 }
 
-
-
-
-
-
-
-
 /* text styles */
 
 p {
@@ -255,16 +234,22 @@ p {
 }
 
 h1 {
-  font-weight: 600;
   font-size: 20px;
   color: #033048;
 	margin-bottom: 18px;
 }
 
 h2 {
-	font-weight: 600;
 	font-size: 24px;
 	color: #ffffff;
+}
+
+.weight800 {
+	font-weight: 800;
+}
+
+.weight600 {
+	font-weight: 600;
 }
 
 /* link styles */
